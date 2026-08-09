@@ -159,3 +159,105 @@ Several calculated fields were created in Tableau to transform raw transactional
 IF SUM([Sales]) = 0 THEN 0
 ELSE SUM([Profit]) / SUM([Sales])
 END
+
+---
+
+# 🔍 Key Insights
+
+The analysis highlights several relevant business patterns:
+
+### 1. Technology is the strongest category
+
+Technology generates the highest sales and profit contribution among the main product categories, making it a key driver of overall business performance.
+
+### 2. Consumer is the largest customer segment
+
+The Consumer segment generates the highest sales contribution, followed by Corporate and Home Office.
+
+### 3. Profitability varies significantly by sub-category
+
+While several sub-categories generate strong positive profit, others generate negative profit.
+
+This indicates potential opportunities to investigate:
+
+- Pricing strategy
+- Discount levels
+- Product costs
+- Sales mix
+- Operational costs
+
+### 4. Sales performance shows strong growth
+
+The monthly sales trend shows stronger sales levels toward the later years of the analyzed period, with significant peaks during some months.
+
+### 5. Geographic performance is concentrated
+
+Sales are not evenly distributed across the U.S. market. Certain states contribute significantly more revenue than others, creating opportunities for regional performance analysis.
+
+---
+
+# 💡 Business Recommendations
+
+Based on the analysis, several potential business actions can be considered:
+
+1. **Prioritize high-performing categories and markets** when planning commercial strategies.
+
+2. **Investigate loss-making sub-categories** to understand whether negative profitability is driven by discounts, pricing, product costs, or other operational factors.
+
+3. **Review the relationship between discounts and profitability** to determine whether aggressive discounting is reducing margins.
+
+4. **Analyze high-sales / low-profit products** to identify opportunities to improve margins without compromising revenue.
+
+5. **Use geographic performance data** to support regional sales and marketing decisions.
+
+6. **Monitor monthly sales trends** to identify seasonal patterns and improve sales planning and forecasting.
+
+---
+
+# 🎨 Dashboard Design
+
+The dashboard was designed with a clean and business-oriented approach, prioritizing:
+
+- Executive KPIs
+- Clear visual hierarchy
+- Interactive filters
+- Consistent formatting
+- Easy interpretation for non-technical stakeholders
+- Business-focused storytelling
+
+The objective was not only to visualize the data, but to make the analysis useful for **business decision-making**.
+
+---
+
+# 🚀 Skills Demonstrated
+
+This project demonstrates practical skills in:
+
+- Business Analysis
+- Data Visualization
+- Tableau
+- KPI Development
+- Data Exploration
+- Profitability Analysis
+- Sales Performance Analysis
+- Geographic Analysis
+- Business Storytelling
+- Calculated Fields
+- Data-Driven Decision Making
+- Translating data into business recommendations
+
+---
+
+# 📂 Repository Structure
+
+```text
+sales-performance-tableau-dashboard/
+│
+├── README.md
+│
+├── Monthly_sales.jpg
+├── Profti_sub_category.jpg
+├── profit_by_category.jpg
+├── sales_by_category.jpg
+├── sales_by_segment.jpg
+└── sales_by_state.jpg
