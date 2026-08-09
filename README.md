@@ -155,10 +155,7 @@ Several calculated fields were created in Tableau to transform raw transactional
 
 ### Profit Margin %
 
-```text
-IF SUM([Sales]) = 0 THEN 0
-ELSE SUM([Profit]) / SUM([Sales])
-END
+
 
 ---
 
